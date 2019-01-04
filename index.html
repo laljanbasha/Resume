@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Resume</title>
+	<link rel="stylesheet" type="text/css" href="J:\resume\resume.css">
+	<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #5da4d9;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+
+</head>  
+<body>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<div class="container">
+		<div class="sidebar">
+			<div class="sidebar-top">
+				<img class="profile-image" src="C:\Users\jay\Desktop\jay\me.jpeg"/>
+				<div class="profile-basic">
+					<h1 class="name">Jay Suthar</h1>
+					<h4 class="designation">Frontend Developer </h4>
+				</div>
+			</div>
+			<div class="profile-info">
+				<p>I'm a passionate and enthusiastic learner.An ambitious and determined student aspiring to further a promising career in the field of Electronics and
+Communication.</p>
+			</div>
+			<div class="profile-info">
+				<p class="key"><i class='fas fa-phone' style='font-size:24px'></i>  Contact : </p>
+				<p class="value">9662521083</p>
+			</div>
+			<div class="profile-info">
+				<p class="key" ><i class='fas fa-envelope' style='font-size:24px'></i>  Email : </p>
+				<p class="value" >jaysuthar0603@gmail.com</p>
+			</div>
+						<div class="profile-info">
+				<p class="key" ><i class='fas fa-home' style='font-size:24px'></i>  Address : </p>
+				<p class="value" >
+					A-39,NBH Hostel<br>
+					Near BVM Engg. College<br>
+					Vallabh Vidhyanagar,Anand<br>
+					388120.<br>					
+				</p>
+			</div>
+			<div class="profile-info">
+				<p class="key" ><i class='fas fa-wrench' style='font-size:24px'></i>  Skills: </p> <br>
+			<p>HTML,CSS,JavaScript</p>
+				<div class="container">
+				<div class="skills htmlcssjavascript">80%</div>
+				</div>
+			<p>C,C++</p>
+				<div class="container">
+				<div class="skills ccpp">90%</div>
+				</div>	
+				
+			<p>JAVA</p>
+				<div class="container">
+				<div class="skills java">70%</div>
+				</div>
+
+			<p>Python</p>
+				<div class="container">
+				<div class="skills python">60%</div>
+				</div>
+
+			</div>
+			<div class="profile-info">
+				<a href="https://www.facebook.com/jay.suthar.007" class="fa fa-facebook"></a>
+				<a href="https://www.instagram.com/mejaysuthar/" class="fa fa-instagram"></a>
+				<a href="https://plus.google.com/u/0/+JaySuthar" class="fa fa-google"></a>
+				<a href="https://twitter.com/n3m0_cptn" class="fa fa-twitter"></a>
+			</div>
+		</div>
+		<div class="content">
+		<div class="education">
+        <h1 class="heading">EDUCATION</h1>
+				<div class="info">
+					<p class="sub-heading">Birla Vishwakarma Mahavidhyala Engg. College</p>
+					<p class="duration">AUG-2016 - Present</p>
+					<p>3rd Year B.Tech Electronics & Communication </p>
+				</div>
+				<div class="info">
+					<p class="sub-heading">Jay Jalaram International School</p>
+					<p class="duration">JULY-2012 - March-2014</p>
+					<p>Higher Secondary Education</p>
+				</div>
+				<div class="info">
+					<p class="sub-heading">Shri Narayana Central School</p>
+					<p class="duration">JUNE-2005 - May-2012</p>
+					<p>Primary and Secondary Education  </p>
+				</div>
+			</div>
+			<div class="training">
+				<h1 class="heading"> TRAINING</h1>
+				<div class="info">
+					<p class="sub-heading">Trainee @ Edutech Learning Solution Pvt. Ltd.</p>
+					<p class="duration">JUNE 2018 - JULY 2018</p>
+					<p>Completed summer internship on “Embedded C programming technique with advanced 8051 Microcontroller”</p>
+				</div>
+				
+			</div>
+			<div class="training">
+				<h1 class="heading"> EXTRA CURRICUIAR</h1>
+				<div class="info">
+					
+					<p>Chess</p>
+					<p>Music</p>
+					<p>Competitive Programming</p>
+					<p>Promethean Work</p>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
+
+
